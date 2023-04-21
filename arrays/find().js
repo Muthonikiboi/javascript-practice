@@ -15,9 +15,6 @@ const team = [
   let adultMember = team.find(({ age }) => age >= 18);
   
   console.log(adultMember);
-
-
-  
   //example 2:
   function isEven(element) {
     return element % 2 == 0;
