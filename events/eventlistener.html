@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h6>we enter the first event</h6>
+    <input type="button" value="event1" id="event1"><br><br>
+
+    <h6>we enter the second event</h6>
+    <input type="button" value="event2" id="event2"><br><br>
+
+     <h6>adding many handlers to the same element </h6>
+    <input type="button" id="btn" value="event3">
+    <p id="demo"></p>
+    <script> 
+
+        //example 1 event listener
+        document.getElementById("event1").addEventListener("click",function(){alert("Hello World")});
+
+        //example 2 event listener
+        document.getElementById("event2").addEventListener("click",hey);
+        function hey(){
+            prompt("ENTER YOUR NAME:");
+        }
+
+        //adding many event handlers to the same element
+        var name=document.getElementById("btn");
+        name.addEventListener("mouseover",function1);
+        name.addEventListener("click",function2);
+        name.addEventListener("mouseout",function3);
+
+        function function1(){
+            document.getElementById("demo").innerHTML+="Moused over:<br>";
+        };
+        function function2(){
+            document.addEventListener("demo").innerHTML+="clicked:<br>";
+        };
+        function function3(){
+            document.getElementById("demo").innerHTML+="Moused over:<br>";
+        };
+
+
+    </script>
+</body>
+</html>

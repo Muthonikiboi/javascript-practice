@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            align-items: center;
+            justify-content: center;
+            display: grid;
+        }
+        .div2{
+            background-color:gray;
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+        }
+        .div3{
+            background-color: purple;
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+            align-items: center;
+            justify-content: center;
+            display: grid;
+        }
+        .div4{
+            float: right;
+            background-color:rgb(247, 0, 185);
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+        }
+
+    </style>
+    </head>
+<body>
+    <!--examle on bubbling-->
+    <div>
+    <div class="div1" id="div1">
+        <div class="div2" id="div2">
+                 
+        </div>
+    </div>
+    <!--example on capturing-->
+    <div class="div3" id="div3">
+        <div class="div4" id="div4">
+
+        </div>
+    </div>
+</div>
+    <script src="eventlisteners.js">
+    </script>
+</body>
+</html>

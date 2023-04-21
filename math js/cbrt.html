@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Enter your number here: <input type="text" id="number">
+        <input type="button" id="inputbtn" onclick="display()" value="CALCULATE">
+    </form>
+    <p>
+        <span id="result">
+
+        </span>
+    </p>
+    <script>
+        function display(){
+            let u=document.getElementById("number").value;
+            document.getElementById("result").innerHTML=Math.cbrt(u);
+        }
+
+        /*cbrt of numbers
+          let a=Math.cbrt(125);
+         console.log(a);*/
+
+    </script>
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

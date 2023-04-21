@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Input number: <input type="text" id="input1" placeholder=" ">
+        <input type="button" id="displaybtn" onclick="display()" value="CALCULATE">
+    </form>
+    <p>
+        <span id="result">
+
+        </span>
+    </p>
+  
+</body>
+<script>
+    function display(){
+    var t=document.getElementById("input1").value;
+    document.getElementById("result").innerHTML=Math.ceil(t);   
+    }
+
+</script>
+</html>
