@@ -16,3 +16,7 @@ function createArray(arraylike, mapFunc) {
   
   console.log(result);
   
+
+  //example3
+  let mySchool=Array.from("Dedan Kimathi University of Technology");
+  console.log(mySchool);
