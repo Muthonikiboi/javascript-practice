@@ -14,7 +14,7 @@ for(i=1;i<n;i++)
     console.log("I am a Hero");
 }
 
-//while loop om js
+//while loop on js
 //program to display sum of natural numbers
 
 
