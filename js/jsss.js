@@ -17,3 +17,11 @@ for(i=1;i<n;i++)
 //while loop om js
 //program to display sum of natural numbers
 
+
+let sum = 0;
+
+while (i=1,i<=5,i++) {
+  sum += i;
+}
+
+console.log("The sum of natural numbers is:", sum);
