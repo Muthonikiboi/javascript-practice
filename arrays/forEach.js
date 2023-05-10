@@ -10,3 +10,15 @@ const names =["Joy", "Emmanuel","Lilian"];
 names.forEach(function (output,index){
     console.log(output+"-"+index);
 });
+
+//aided example GfG
+function squares (){
+
+    items=[12,24,36];
+    const copy=[];
+    items.forEach(function (items){
+        copy.push(items*items);
+    });
+    console.log(copy);
+}
+squares();
