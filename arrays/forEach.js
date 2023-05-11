@@ -22,3 +22,12 @@ function squares (){
     console.log(copy);
 }
 squares();
+
+//array forEach programiz
+let age = [6, 16, 18, 21, 22];
+
+function computeSquare(element) {
+  console.log(element * element);
+}
+
+age.forEach(computeSquare);
