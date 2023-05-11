@@ -31,3 +31,11 @@ function computeSquare(element) {
 }
 
 age.forEach(computeSquare);
+
+//example2 programiz
+function salaries(element, index) {
+    console.log('salary ' + index + ': ' + element);
+}
+const prices = [18000, 20000, 30000, 50000, 500000, 80000];
+
+prices.forEach(salaries);
