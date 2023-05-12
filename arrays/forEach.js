@@ -55,10 +55,24 @@ siblings.forEach(element=>{
     console.log(element);
 });
 
+
 //use of forEach with sets
-let set=newSet(12,34,56,78,90);
+let set=new Set(12,34,56,78,90);
 
 set.forEach(myFunction);
 function myFunction(){
     console.log(myFunction);
+};
+
+
+//last example
+let map=new Map();
+
+map.set('name', 'JoyElizabeth Muthoni Kiboi');
+map.set('course','Bsc Information Technology');
+
+map.forEach(myFunction);
+
+function myFunction(value,key){
+    console.log(key+'-'+value);
 };
