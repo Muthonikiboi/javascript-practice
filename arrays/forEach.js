@@ -39,3 +39,26 @@ function salaries(element, index) {
 const prices = [18000, 20000, 30000, 50000, 500000, 80000];
 
 prices.forEach(salaries);
+
+//simple code for each
+let classmates=['JOY','RUTH','EMMANUEL'];
+
+classmates.forEach(myFunction);
+function myFunction(friends){
+    console.log(friends);
+};
+
+//use of arrow fnction
+let siblings=['Joy','Lilian','David'];
+
+siblings.forEach(element=>{
+    console.log(element);
+});
+
+//use of forEach with sets
+let set=newSet(12,34,56,78,90);
+
+set.forEach(myFunction);
+function myFunction(){
+    console.log(myFunction);
+};
