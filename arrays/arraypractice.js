@@ -42,9 +42,22 @@ function Product(item){
 }
 
 let category=products.filter(Product);
+console.log("This is the A category: " );
 console.log(category);
 
 
+
+function Product(item){
+    if(item.category==="Category C"){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+let categories=products.filter(Product);
+console.log("This is the C category: " );
+console.log(categories);
 
 /*this is your mistake
 const items = products.filter(products.category === 'Category C');
