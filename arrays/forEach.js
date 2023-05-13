@@ -57,7 +57,7 @@ siblings.forEach(element=>{
 
 
 //use of forEach with sets
-let set=new Set(12,34,56,78,90);
+let set = new Set([12,34,56,78,90]);
 
 set.forEach(myFunction);
 function myFunction(){
