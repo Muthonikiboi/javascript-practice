@@ -22,11 +22,4 @@ function createArray(arraylike, mapFunc) {
   console.log(mySchool);
 
 
-const words = ['apple', 'banana', 'cat', 'dog', 'elephant'];
 
-// Filter words with more than 3 characters
-const longWords = words.filter(word => word.length > 3);
-console.log(longWords); 
-
-const wordsWithA = words.filter(word => word.includes('a'));
-console.log(wordsWithA); 
