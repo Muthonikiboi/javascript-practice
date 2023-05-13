@@ -20,3 +20,14 @@ function createArray(arraylike, mapFunc) {
   //example3
   let mySchool=Array.from("Dedan Kimathi University of Technology");
   console.log(mySchool);
+
+
+const words = ['apple', 'banana', 'cat', 'dog', 'elephant'];
+
+// Filter words with more than 3 characters
+const longWords = words.filter(word => word.length > 3);
+console.log(longWords); // Output: ['apple', 'banana', 'elephant']
+
+// Filter words that contain the letter 'a'
+const wordsWithA = words.filter(word => word.includes('a'));
+console.log(wordsWithA); // Output: ['apple', 'banana', 'cat']
