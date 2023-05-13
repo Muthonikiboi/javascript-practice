@@ -26,8 +26,7 @@ const words = ['apple', 'banana', 'cat', 'dog', 'elephant'];
 
 // Filter words with more than 3 characters
 const longWords = words.filter(word => word.length > 3);
-console.log(longWords); // Output: ['apple', 'banana', 'elephant']
+console.log(longWords); 
 
-// Filter words that contain the letter 'a'
 const wordsWithA = words.filter(word => word.includes('a'));
-console.log(wordsWithA); // Output: ['apple', 'banana', 'cat']
+console.log(wordsWithA); 
