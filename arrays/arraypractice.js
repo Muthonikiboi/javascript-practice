@@ -63,11 +63,9 @@ console.log(categories);
 const items = products.filter(products.category === 'Category C');
 console.log(items); */
 
-const words = ['apple', 'banana', 'cat', 'dog', 'elephant'];
+//use array filter on strings
 
-// Filter words with more than 3 characters
-const longWords = words.filter(word => word.length > 3);
-console.log(longWords); 
 
-const wordsWithA = words.filter(word => word.includes('a'));
-console.log(wordsWithA); 
+
+//FROM ARRAY
+
