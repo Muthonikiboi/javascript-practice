@@ -8,7 +8,23 @@ function linearSearch(s,x){
 }
 
 const arr = [1,3,5,6,13,7,9];
-const tbs = 8;
+const tbs = 13;
 const index = linearSearch(arr ,tbs);
 console.log(index);
 
+
+//linear search
+
+function Workers(z,y){
+    for (var i=0;i<z.length;i++){
+        if (y[i]===z){
+            return true;
+        }
+    }
+    return false;
+}
+
+const array =["Joy","Lilian","David","Emmanuel","Faith","Elijah"];
+const find="Faith";
+const ind = Workers(array,find);
+console.log(ind);
