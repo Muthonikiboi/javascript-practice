@@ -17,7 +17,7 @@ console.log(index);
 
 function Workers(z,y){
     for (var i=0;i<z.length;i++){
-        if (y[i]===z){
+        if (y===z[i]){
             return true;
         }
     }
