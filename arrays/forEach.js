@@ -11,6 +11,7 @@ names.forEach(function (output,index){
     console.log(output+"-"+index);
 });
 
+
 //aided example GfG
 function squares (){
 
