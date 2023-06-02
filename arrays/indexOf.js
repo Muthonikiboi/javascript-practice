@@ -1,5 +1,5 @@
 //the array index finds the first occurence of an element searched
-var names=['Joy','Lilian','David']
+var names=['Joy','Lilian','David'];
 
 //if the searched element is in the array we get the index else -1
 findname =names.indexOf('Joy');
