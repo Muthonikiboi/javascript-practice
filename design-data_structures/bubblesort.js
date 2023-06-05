@@ -20,6 +20,7 @@ function  bubblesort(arr){  //func
                 arr[j+1] = temp;
             }
         }
+        console.log("Pass",i+1,":",arr);
     }
     return arr;//returns the sorted array
 }
