@@ -9,6 +9,10 @@ console.log(findname);
 find_name =names.indexOf('Faith');
 console.log(find_name);
 
+find_name =names.indexOf('Faith');
+console.log(find_name);
+
+
 //the second example with if ...else
 
 const salaries = [1000000, 200000, 30000, 40000];
