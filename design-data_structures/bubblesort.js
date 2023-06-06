@@ -30,5 +30,25 @@ bubblesort(arr);  //func call
 console.log(arr);  //array after sorting
 
 
-//TO SHOW ALL PASSES AS IT ITERATES THROUGH THE ARRAY EACH TIME
+//EXAMPLE 2:ON BUBBLE SORT
+const array=[12,90,89,56,45,90,34];
+function bubble(array){
+    const length =array.legth;
 
+    for(let i=0; i<length; i++){
+        for(let j=0; j<length; j++){
+            if( array[j] > array[j+1]){
+                const index = array[j];
+                array[j] = array[j+1];
+                array[j+1] = index
+            }
+        }
+    }
+    return(array);
+}
+
+
+
+console.log(array);
+bubble(array);
+console.log(array);
