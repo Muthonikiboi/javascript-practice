@@ -4,7 +4,7 @@ const array=[12,90,89,56,45,90,34];
 function bubble(array){
 
     for(let i=0; i<array.length; i++){
-        for(let j=0; j<array.length-i-1; j++){
+        for(let j=0; j<array.length; j++){
             if( array[j] > array[j+1]){
 
                 const index = array[j];

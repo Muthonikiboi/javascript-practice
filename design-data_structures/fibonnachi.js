@@ -7,7 +7,7 @@ function fibonacci(n) {
   }
   
   // Generate the first 10 Fibonacci numbers
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 50; i++) {
     console.log(fibonacci(i));
   }
   

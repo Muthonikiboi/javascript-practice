@@ -11,7 +11,7 @@ function  bubblesort(arr){  //func
     const len = arr.length; //declares len and assigns the length of the array
 
     for(let i=0; i<len; i++){ //starts loop that iterates from0to length of the array
-        for(let j=0; j<len; j++){ //
+        for(let j=0; j<len-i-1; j++){ //
             if (arr[j] > arr[j+1]){//checks if current element at j is greater thanthat ib index [j+1]
                 //means they are out of order and need to be swapped
                 //incharge of swapping in bubble sort
@@ -28,27 +28,3 @@ function  bubblesort(arr){  //func
 console.log(arr); //array before sorting
 bubblesort(arr);  //func call
 console.log(arr);  //array after sorting
-
-
-//EXAMPLE 2:ON BUBBLE SORT
-const array=[12,90,89,56,45,90,34];
-function bubble(array){
-    const length =array.legth;
-
-    for(let i=0; i<length; i++){
-        for(let j=0; j<length; j++){
-            if( array[j] > array[j+1]){
-                const index = array[j];
-                array[j] = array[j+1];
-                array[j+1] = index
-            }
-        }
-    }
-    return(array);
-}
-
-
-
-console.log(array);
-bubble(array);
-console.log(array);
