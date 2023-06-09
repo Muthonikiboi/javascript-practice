@@ -1,7 +1,7 @@
 const arr= [-5,7,-6,-2,1,3,8,4];
 
 
-function sort_square(arr){
+function sort_squares(arr){
     const len=arr.length;
 
     for (let i=0; i<len; i++){
@@ -16,7 +16,7 @@ function sort_square(arr){
     return arr;
 }
 
-sort_square(arr);
+sort_squares(arr);
 
 function squares(el){ 
     console.log(el*el);
