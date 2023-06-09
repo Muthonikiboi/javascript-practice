@@ -22,3 +22,5 @@ function squares(el){
     console.log(el*el);
 }
 arr.forEach(squares);
+
+console.log(arr);
