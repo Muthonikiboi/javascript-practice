@@ -11,3 +11,4 @@ function fibonacci(n) {
     console.log(fibonacci(i));
   }
   //gives me an output of the first 10 Fibonacci numbers
+  
