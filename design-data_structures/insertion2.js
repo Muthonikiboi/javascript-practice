@@ -9,6 +9,9 @@ function insertionSort(arr) {
     }
     return arr
   }
+
+console.log(insertionSort([1,6,9,0,8,4,3,5,2,]));
+
   console.log(insertionSort([2, 1, 3, 7, 5])) // [1, 2, 3, 5, 7]
 
   const arr=[26,27,20,24,25,21,23,22];
