@@ -30,7 +30,7 @@ function main() {
         [2, 10, 1, 4] // nodes on line 2
     ];
     let t = [
-        [0, 7, 4, 5],
+        [0, 7, 4, 5],//time between alternate nodes
         [0, 9, 2, 8]
     ];
 
