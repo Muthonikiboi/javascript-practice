@@ -36,8 +36,8 @@ function main() {
 
     const e1 = 10;//entry point 1
     const e2 = 12;//entry point 2
-    const x1 = 18;
-    const x2 = 20;
+    const x1 = 18;//point of exit 1
+    const x2 = 20;//point of exit 2
 
     const x = assembly(a, 0, 0, x1, x2, n, t) + e1 + a[0][0];
     const y = assembly(a, 1, 0, x1, x2, n, t) + e2 + a[1][0];
