@@ -34,8 +34,8 @@ function main() {
         [0, 9, 2, 8]
     ];
 
-    const e1 = 10;
-    const e2 = 12;
+    const e1 = 10;//entry point 1
+    const e2 = 12;//entry point 2
     const x1 = 18;
     const x2 = 20;
 
