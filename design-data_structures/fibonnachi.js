@@ -11,4 +11,6 @@ function fibonacci(n) {
     console.log(fibonacci(i));
   }
   //gives me an output of the first 10 Fibonacci numbers
-  
+  for (let i = 0; i < 10; i++) {
+    console.log(fibonacci(i));
+  }
