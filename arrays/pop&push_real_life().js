@@ -1,12 +1,9 @@
-
 let myArray = [];
-
 
 function push(element) {
   myArray.push(element);
   console.log(`Pushed ${element} into the array.`);
 }
-
 
 function pop() {
   if (myArray.length === 0) {
@@ -18,7 +15,6 @@ function pop() {
     return element;
   }
 }
-
 
 push(10);
 push(20);
