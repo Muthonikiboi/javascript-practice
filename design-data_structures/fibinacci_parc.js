@@ -8,3 +8,8 @@ function fibonacci(n){
 for(let i=0;i<10;i++){
     console.log(fibonacci(i));
 }
+
+for(let i=0;i<50;i++){
+    console.log(fibonacci(i));
+}
+
