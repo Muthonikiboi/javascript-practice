@@ -13,3 +13,6 @@ for(let i=0;i<50;i++){
     console.log(fibonacci(i));
 }
 
+for(let i=0;i<99;i++){
+    console.log(fibonacci(i));
+}
