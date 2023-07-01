@@ -13,3 +13,4 @@ function popping(){
     console.log(arr.pop());
 }
 popping();
+
