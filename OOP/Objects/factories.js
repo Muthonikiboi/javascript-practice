@@ -13,7 +13,7 @@ circle.draw();
 //example2 object factories
 
 const createSchool=function(name,noOfStudents,location){
-    return{
+    let school={//we can also use as the code above but we do not return the value at the end.
         name:name,
         noOfStudents:noOfStudents,
         location:location,
@@ -21,6 +21,7 @@ const createSchool=function(name,noOfStudents,location){
             console.log(`My school is ${this.name} which is located at ${this.location} with a population of ${this.noOfStudents} students.`);
         },
     };
+    return school;
 };
 const school=createSchool("Dedan Kimathi University","10,099","Nyeri,Kenya");
 console.log(school);
