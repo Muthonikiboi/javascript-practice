@@ -1,0 +1,33 @@
+//enumerationg properties of an object
+function Circle(radius){
+    this.radius = radius;
+    this.draw=function(){
+        console.log('draw');
+    };
+}
+const circle =new Circle(9);
+//we use for..in or for...of to enumerate properties properties of the circle object
+for(const key of keys){
+    console.log(key);
+}
+//ouput
+//radius
+//draw
+
+const person = {
+    name: "John Doe",
+    age: 30,
+    job: "Software Engineer",
+  };
+  
+  // Enumerate the properties of the person object using the for...in loop
+  for (const property in person) {
+    console.log(property);
+  }
+  
+  // Output:
+  // name
+  // age
+  // job
+  
+  
