@@ -59,3 +59,13 @@ console.log(averageAge);
     const yearsLeft=18-ageSarah;
     console.log(`Sarah is too young.Wait another ${yearsLeft} years.`)
   }
+
+  //TYPE CONVERSION AND COERSION
+
+
+
+  //booleans
+  //&&-and for T ,A and B should be T
+  // ||-or for T ,A or B should either be T or F
+  //  !-change the value of a valuable
+   
