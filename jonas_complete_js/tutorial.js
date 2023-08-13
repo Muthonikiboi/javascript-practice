@@ -69,3 +69,13 @@ console.log(averageAge);
   // ||-or for T ,A or B should either be T or F
   //  !-change the value of a valuable
    
+
+  //CONDITIONAL TARNERY OPERATOR
+  const hisage=21;
+  hisage>=18 ? console.log('He has an ID ') : console.log('He is still a child');
+  
+  const herAge=21;
+  const gettingID = herAge >=18 ? 'Accept': 'Reject';
+  console.log(gettingID);
+
+  console.log(`Her age is above 18 so she got an ${herAge>=18 ? 'Accept' : 'Reject'}`);
