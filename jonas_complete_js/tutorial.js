@@ -35,3 +35,27 @@ console.log(ageJoy,ageDavid);
 console.log(ageDavid>ageJoy);//takes it as a boolean question
 const averageAge=(ageDavid+ageJoy)/2;//write such a code without parenthesis you get a wrong answer
 console.log(averageAge);
+
+//strings and tamplete literals
+  //normal string
+  const myName='Joy Elizabeth Kiboi';
+  const birthYear=2004;
+  const year=2023;
+  const job='Software Engineer';
+
+  const joy="I'm "+ myName +" a "+ (year-birthYear)+" year old "+job+".";
+  console.log(joy);
+  //templete literals(assemple multiple pieces into one string)
+  //we use dollar sign
+  const joyNew = `I'm ${myName} a ${year-birthYear} year old ${job}`;
+  console.log(joyNew);
+
+  //if else statements
+  const ageSarah =15;
+
+  if(ageSarah>=18) {
+    console.log('Sarah gets a driving licence');
+  }else{
+    const yearsLeft=18-ageSarah;
+    console.log(`Sarah is too young.Wait another ${yearsLeft} years.`)
+  }
