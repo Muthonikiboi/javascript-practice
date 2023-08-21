@@ -3,11 +3,28 @@ Steven needs a very simple tip calculator for whenever he goes to eat in a resta
 
 Your tasks:
 
-Calculate the tip, depending on the bill value. Create a variable called tip for this. It's not allowed to use an if...else statement (if it's easier for you, you can start with an if...else statement, and then try to convert it to a ternary operator).
+Calculate the tip, depending on the bill value. Create a variable called tip for this. It's not allowed to use an if...else statement (if it's easier for you, you can start with an if...else statement, and then try to convert it to a ternary operator.
 
 Print a string to the console containing the bill value, the tip, and the final value (bill + tip).
 
 Example: The bill was 275, the tip was 41.25, and the total value 316.25.
 
 Note: Use the values of the bill and tip variables to construct this string. Don't hard-code them 🙂
+
 */
+
+
+const bill=200;
+/*
+if (bill>=50 && bill<=300){
+    tip=bill*0.15
+}else{
+    tip=bill*0.2
+}
+*/
+//with ternary operators
+let tip;
+bill>=50 && bill<=300? tip=bill*0.15 : tip=bill*0.2;
+
+const total=bill+tip;
+console.log(`The bill was ${bill} ,the tip was ${tip} and the total was ${total}`);
