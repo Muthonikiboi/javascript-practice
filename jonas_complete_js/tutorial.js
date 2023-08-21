@@ -79,3 +79,20 @@ console.log(averageAge);
   console.log(gettingID);
 
   console.log(`Her age is above 18 so she got an ${herAge>=18 ? 'Accept' : 'Reject'}`);
+
+  //USE OF STRICT MODE IN JS
+  //strict mode in a function
+  'use strict';//always in the beginning of the full code 
+  //NB:in the center or below a code strict mode does not execute
+  myvariable=9;//this produces an error
+
+  //strict mode in a function
+  myvar=9;
+  console.log(myvar);//output=9
+
+  function hello(){
+    //applicable only for this function
+    'use strict';
+    String ='Hello';//this throws an error
+  }
+  hello();
