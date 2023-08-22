@@ -93,7 +93,7 @@ console.log(averageAge);
   function hello(){
     //applicable only for this function
     'use strict';
-    String ='Hello';//this throws an error
+    String='Hello';//this throws an error
   }
   hello(); 
 
@@ -107,3 +107,8 @@ console.log(student("Joy Kiboi","C025-01-09888/34"));
 
 const pupil=student("Lilian","2345678987");
 console.log(pupil);
+
+//arrow functions
+const getGraduationYear=joiningYear=>joiningYear+4;
+const graduation = getGraduationYear(2021);
+console.log(`My garduation year is ${graduation}`);
