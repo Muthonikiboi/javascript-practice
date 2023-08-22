@@ -95,4 +95,15 @@ console.log(averageAge);
     'use strict';
     String ='Hello';//this throws an error
   }
-  hello();
+  hello(); 
+
+//FUNCTIONS IN JS
+function student(name,regNo){
+  const students=`The student name is ${name} while their registration is ${regNo}`;
+  return students;
+}
+
+console.log(student("Joy Kiboi","C025-01-09888/34"));
+
+const pupil=student("Lilian","2345678987");
+console.log(pupil);
