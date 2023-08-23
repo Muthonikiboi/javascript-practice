@@ -5,8 +5,6 @@ Each team competes 3 times, and then the average of the 3 scores is calculated (
 
 A team only wins if it has at least double the average score of the other team. Otherwise, no team wins!
 
-
-
 Your tasks:
 
 Create an arrow function calcAverage to calculate the average of 3 scores. This function should have three parameters and return a single number (the average score).
@@ -18,8 +16,6 @@ Create a function checkWinner that takes the average score of each team as param
 Use the checkWinner function to determine the winner for both DATA 1 and DATA 2.
 
 Ignore draws this time. Instead, log No team wins... to the console if there is no winner.
-
-
 
 TEST DATA 1: Dolphins scored 44, 23, and 71. Koalas scored 65, 54, and 49.
 
