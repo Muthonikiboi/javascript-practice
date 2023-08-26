@@ -118,9 +118,34 @@ console.log(`My garduation year is ${graduation}`);
 const names = ["Joy","Lilian","David"];
 console.log(names );
 //method 2
-const siblings= new Array("Faith","Emmanuel","Elijah");
+const siblings= new Array("Faith","Emmanuel","Joy");
 console.log(siblings);
 //output a particular array index
 console.log(siblings[2]);
 //to access the last array from an element
 console.log(names[names.length-1]);
+//mutating the value of an array
+siblings[2]="Elijah";
+console.log(siblings);
+
+//ARRAY METHODS=push,unshift,pop,shift,indexOf,includes
+const fruits=["mangoes","oranges","grapes"];
+console.log(fruits);
+//push-inserts array at the end of an array
+const pushing=fruits.push("apples");
+console.log(fruits);
+//unshift-add element at the beginning of an array
+const unshifting=fruits.unshift("banana");
+console.log(fruits);
+//pop-remove the last element of an array
+const popping=fruits.pop();
+console.log(fruits);
+//shift-remove the first element of an array
+const shifting=fruits.shift();
+console.log(fruits);
+//indexOf-used to get the index of an element in an array
+const indexOfUsed=fruits.indexOf("grapes");
+console.log(indexOfUsed);
+//includes-returns true if an element is in the array and false if not in the array(ES6)
+console.log(fruits.includes("grapes"));
+console.log(fruits.includes("apples"));
