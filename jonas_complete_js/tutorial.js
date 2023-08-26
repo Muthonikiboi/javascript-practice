@@ -112,3 +112,15 @@ console.log(pupil);
 const getGraduationYear=joiningYear=>joiningYear+4;
 const graduation = getGraduationYear(2021);
 console.log(`My garduation year is ${graduation}`);
+
+//ARRAYS IN JAVASCRIPT
+//method 1
+const names = ["Joy","Lilian","David"];
+console.log(names );
+//method 2
+const siblings= new Array("Faith","Emmanuel","Elijah");
+console.log(siblings);
+//output a particular array index
+console.log(siblings[2]);
+//to access the last array from an element
+console.log(names[names.length-1]);
