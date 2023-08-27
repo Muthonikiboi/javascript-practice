@@ -21,14 +21,17 @@ function calcTip(bill,tip){
     }else{
         tip=bill*0.2;
     }
-    console.log(tip);
+    return tip;
 }
-calcTip();
 
-const bills =[125,555,44];
-const tip1=calcTip(bills[0]);
-const tip2=[calcTip(bills[1])];
-const tip3=[calcTip(bills[2])];
+const bills = [125, 555, 44];
+const tip1 = calcTip(bills[0]);
+const tip2 = calcTip(bills[1]);
+const tip3 = calcTip(bills[2]);
 
-const tips=[tip1, tip2, tip3];
-console.log(tips);
+const tips = [tip1, tip2, tip3];
+console.log(bills);
+console.log( tips);
+
+const total=[bills[0]+tip1, bills[1]+tip2, bills[2]+tip3];
+console.log(total);
