@@ -149,3 +149,25 @@ console.log(indexOfUsed);
 //includes-returns true if an element is in the array and false if not in the array(ES6)
 console.log(fruits.includes("grapes"));
 console.log(fruits.includes("apples"));
+
+//FOR LOOP
+
+for (let i = 0; i <=30; i++) {
+  console.log("My name is Joy Kiboi.I am a software Engineer");
+}
+//array in a loop
+const joys=[
+  'Joy Kiboi',
+  'Software Engineer',
+  2023-2002,
+  'IT',
+  'Dedan Kimathi University',
+]
+const her=[];
+
+for(j=0;j<=joys.length;j++){
+  console.log(joys[j] ,typeof joys[j]);
+
+  her[j] = typeof joys[j];
+}
+console.log(her);
