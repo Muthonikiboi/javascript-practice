@@ -166,8 +166,31 @@ const joys=[
 const her=[];
 
 for(j=0;j<=joys.length;j++){
+  //type of gives us the type of the array(boolen string number )
   console.log(joys[j] ,typeof joys[j]);
 
   her[j] = typeof joys[j];
 }
 console.log(her);
+
+//array to calculate years given birth years in an array
+const birthYearArray=[2007,1989,1999,2002,2022];
+const ages=[];
+//in each iteration of the loop we calculate the ages seperately
+for (let k=0;k<birthYearArray.length;k++){
+  //we use .push to put the values in to the array age created above
+  ages.push(2023-birthYearArray[k]);
+}
+console.log(ages);
+//Continue and break on arrays 
+console.log("----------ONLY STRINGS---------")
+for(j=0;j<=joys.length;j++){
+  if (typeof joys[j] !=='string')continue;
+  console.log(joys[j] ,typeof joys[j]);
+}
+//break completely terminates the whole loop
+console.log("----------BREAK A NUMBER---------")
+for(j=0;j<=joys.length;j++){
+  if (typeof joys[j] ==='number')break;
+  console.log(joys[j] ,typeof joys[j]);
+}

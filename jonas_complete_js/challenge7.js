@@ -1,6 +1,4 @@
 /*
-
-CHALLENGE #3
 Let's go back to Mark and John comparing their BMIs!
 
 This time, let's use objects to implement the calculations! Remember: BMI = mass / (height * height) (mass in kg and height in meters).
