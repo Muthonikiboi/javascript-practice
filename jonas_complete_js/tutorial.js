@@ -194,3 +194,25 @@ for(j=0;j<=joys.length;j++){
   if (typeof joys[j] ==='number')break;
   console.log(joys[j] ,typeof joys[j]);
 }
+
+//looping backwards in an array
+for(let b=joys.length-1;b>=0;b--){
+  console.log(b,joys[b]);
+}
+
+//create loop inside of another loop
+let rep = 1;
+while(rep<=10){
+  console.log(`WHILE:I have ${rep} dogs`);
+  rep++;
+}  
+
+//to get a number without a decimal 
+let dice= Math.trunc(Math.random()*6)+1;
+//console.log(dice);
+
+while(dice!==6){
+  console.log(`You rolled a ${dice}`);
+  dice= Math.trunc(Math.random()*6)+1;
+  if (dice===6)console.log('your loop is about to end....');
+}
