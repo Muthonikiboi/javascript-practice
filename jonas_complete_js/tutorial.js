@@ -216,3 +216,21 @@ while(dice!==6){
   dice= Math.trunc(Math.random()*6)+1;
   if (dice===6)console.log('your loop is about to end....');
 }
+
+//USING GOOGLE STACKOVERFLOW AND MDN
+//calc temperature amplitude given a days varing temperatures with a sensor error
+const temperature=[13,12,0,-10,9,5,'error',-2,-5,4];
+//Understanding the problem
+
+//breaking up into subproblems
+
+const calcTempAmp=function(temps){
+  let max=temps[0];
+  for (let i=0; i<temps.length; i++){
+    if(temps[i]>max){
+      max=temps[i];
+    }
+  }
+  console.log(max);
+}
+calcTempAmp([3,7,23,89]);//max 89
