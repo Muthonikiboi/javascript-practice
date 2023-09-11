@@ -226,11 +226,23 @@ const temperature=[13,12,0,-10,9,5,'error',-2,-5,4];
 
 const calcTempAmp=function(temps){
   let max=temps[0];
+  let min=temps[0];
   for (let i=0; i<temps.length; i++){
-    if(temps[i]>max){
-      max=temps[i];
-    }
+    const curTemp=temps[i];
+    if (typeof curTemp !== 'number')continue;
+    if(curTemp>max)max=curTemp;
+    if(curTemp<min)min=curTemp;
+
   }
-  console.log(max);
+  console.log(max,min);
+  return max-min;
 }
-calcTempAmp([3,7,23,89]);//max 89
+calcTempAmp([3,6,9,7]);
+
+//using modzilla(MDN)
+//assume we have two arrays
+const array1=["Joy","Lilian","David"];
+const array2=["Faith","Emmanuel","Elijah"];
+const array3=array1.concat(array2);
+console.log(array1,array2);
+console.log(array3);
