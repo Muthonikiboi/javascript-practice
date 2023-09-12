@@ -246,3 +246,18 @@ const array2=["Faith","Emmanuel","Elijah"];
 const array3=array1.concat(array2);
 console.log(array1,array2);
 console.log(array3);
+
+//challenge to create a function to show :FORECAST that takes in array and logs a string above the console
+//write a function that works for all the arrays
+const data1=[21,17,19];
+const data2=[12,5,-5,0,4];
+
+const printForecast=function(arr){
+  let str='';
+  for (let i=0; i<arr.length; i++){
+    //in each iteration of the array we add the current value to the string created above
+    str=str+`${arr[i]}°C in ${i+1} days ...`;
+  }
+  console.log('...'+str);
+};
+printForecast(data1);
